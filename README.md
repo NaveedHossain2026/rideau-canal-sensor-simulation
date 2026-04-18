@@ -42,3 +42,19 @@ Create a .env file in the root directory
 To start the simulation, run:
 
 python sensor_simulator.py
+
+## Code Structure
+
+Main Components
+
+__1. Locations List (LOCATIONS)__
+   
+A simple list that stores each sensor location and its Azure IoT connection details.
+
+__2. Async Event Loop (asyncio)__
+   
+The “manager” of the program that runs multiple sensor tasks at the same time.
+
+__3. Environment Loader (dotenv)__
+
+Loads secure Azure credentials from a .env file instead of hardcoding them in the code.
