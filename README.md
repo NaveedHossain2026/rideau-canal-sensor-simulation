@@ -45,7 +45,7 @@ python sensor_simulator.py
 
 ## Code Structure
 
-Main Components
+### Main Components
 
 __1. Locations List (LOCATIONS)__
    
