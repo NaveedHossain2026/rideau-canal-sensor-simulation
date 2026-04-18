@@ -58,3 +58,17 @@ The “manager” of the program that runs multiple sensor tasks at the same tim
 __3. Environment Loader (dotenv)__
 
 Loads secure Azure credentials from a .env file instead of hardcoding them in the code.
+
+### Key Functions
+
+__main() (Orchestrator)__
+
+Starts the program and launches all three sensors at the same time using asyncio.gather().
+
+__send_telemetry(location) (Sensor Worker)__
+
+Connects to Azure IoT Hub, then continuously sends data every 10 seconds in a loop until the program is stopped.
+
+__random.uniform() (Data Generator)__
+
+Generates realistic fake sensor data by producing random values within a safe weather range (e.g., -10°C to 2°C) to simulate changing ice conditions.
