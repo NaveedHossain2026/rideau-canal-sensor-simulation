@@ -78,22 +78,10 @@ Generates realistic fake sensor data by producing random values within a safe we
 ```json
 
 {
-    "location": "FifthAve",
-    "windowEnd": "2026-04-16T05:05:00.0000000Z",
-    "id": "FifthAve-2026-04-16T05:05:00.0000000Z",
-    "avgIceThickness": 29.790666666666667,
-    "minIceThickness": 20.29,
-    "maxIceThickness": 39.86,
-    "avgSurfaceTemp": -3.2676666666666674,
-    "minSurfaceTemp": -9.62,
-    "maxSurfaceTemp": 1.81,
-    "maxSnowAccumulation": 9.3,
-    "avgExternalTemp": -13.453666666666667,
-    "readingCount": 30,
-    "safetyStatus": "Caution",
-    "_rid": "qUMFANvSf2IuAAAAAAAAAA==",
-    "_self": "dbs/qUMFAA==/colls/qUMFANvSf2I=/docs/qUMFANvSf2IuAAAAAAAAAA==/",
-    "_etag": "\"2000c088-0000-0a00-0000-69e06d9f0000\"",
-    "_attachments": "attachments/",
-    "_ts": 1776315807
+    "deviceId": "FifthAve",
+    "iceThickness": 24.58,
+    "surfaceTemp": -0.53,
+    "snowAccumulation": 9.29,
+    "externalTemp": -9.55,
+    "timestamp": "2026-04-18T01:01:25.962319"
 }
