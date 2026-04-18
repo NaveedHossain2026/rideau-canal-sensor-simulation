@@ -92,14 +92,24 @@ Generates realistic fake sensor data by producing random values within a safe we
     "avgSurfaceTemp": -3.2676666666666674,
     
     "minSurfaceTemp": -9.62,
+    
     "maxSurfaceTemp": 1.81,
+    
     "maxSnowAccumulation": 9.3,
+    
     "avgExternalTemp": -13.453666666666667,
+    
     "readingCount": 30,
+    
     "safetyStatus": "Caution",
+    
     "_rid": "qUMFANvSf2IuAAAAAAAAAA==",
+    
     "_self": "dbs/qUMFAA==/colls/qUMFANvSf2I=/docs/qUMFANvSf2IuAAAAAAAAAA==/",
+    
     "_etag": "\"2000c088-0000-0a00-0000-69e06d9f0000\"",
+    
     "_attachments": "attachments/",
+    
     "_ts": 1776315807
 }
