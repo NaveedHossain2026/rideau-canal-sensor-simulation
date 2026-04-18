@@ -76,6 +76,7 @@ Generates realistic fake sensor data by producing random values within a safe we
 ## Sensor Data Format
 
 {
+    
     "location": "FifthAve",
     
     "windowEnd": "2026-04-16T05:05:00.0000000Z",
