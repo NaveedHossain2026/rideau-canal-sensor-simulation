@@ -25,7 +25,7 @@ An Azure IoT Hub with three registered devices (DowsLake, FifthAvenue, NAC).
 
 Clone the repository:
 
-git clone [your-repo-link]
+git clone https://github.com/NaveedHossain2026/rideau-canal-sensor-simulation.git
 
 cd rideau-canal-sensor-simulation
 
